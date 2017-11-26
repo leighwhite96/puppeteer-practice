@@ -12,7 +12,7 @@ let facebookScrape = async() => {
   await page.keyboard.down('Enter');
   //get to friendship
   await page.click('#js_285');
-  await page.keyboard.type('Meg Wilson-Taylor');
+  await page.keyboard.type('');
   await page.click('#js_4z8 > img');
   await page.click('#u_ps_jsonp_6_0_d > i');
   await page.click('#u_ps_jsonp_6_0_0 > div > ul > li:nth-child(1) > a > span > span');
