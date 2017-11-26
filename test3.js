@@ -8,7 +8,7 @@ let facebookScrape = async() => {
   await page.click('#email');
   await page.keyboard.type('');
   await page.click('');
-  await page.keyboard.type('21Stsept1974');
+  await page.keyboard.type('');
   await page.keyboard.down('Enter');
   //get to friendship
   await page.click('#js_285');
